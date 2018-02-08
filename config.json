@@ -1,15 +1,105 @@
 {
+    "baseURL": "https://www.macysbeautytest.com",
     "title": "Macys beauty test",
-    "baseURL": "https:\/\/www.macysbeautytest.com",
-    "languageCode": "en-us",
-    "theme": "tvpage",
-    "disablePathToLower": true,
-    "enableRobotsTXT": true,
-    "galleryChannelIds": "139542623,139542621,139542622,139542624",
-    "params": {
-        "loginId": "1759123",
-        "subfolder": "",
-        "firstpartycookies": true,
-        "cookiedomain": "macysbeautytest.com"
-    }
+    "languageCode" : "en-us",
+    "disablePathToLower" : true,
+    "theme" : "tvpage",
+    "enableRobotsTXT" : true,
+    "params" : {
+        "loginId" : "1759123",
+        "subfolder" : "",
+        "firstpartycookies" : true,
+        "cookiedomain" : "macysbeautytest.com",
+        "tvppages" : {
+            "autoplay" : {
+                "for" : "player",
+                "type" : "boolean",
+                "label" : "Autoplay",
+                "code" : "autoplay",
+                "value" : true
+            },
+            "autoend" : {
+                "for" : "player",
+                "type" : "boolean",
+                "label" : "Autoend",
+                "code" : "autoend",
+                "value" : true
+            },
+            "channelgalleryids" : {
+                "type" : "text",
+                "label" : "Channel Gallery Ids",
+                "code" : "channelgalleryids",
+                "value" : "139542623,139542621,139542622,139542624"
+            },
+            "channelsliderids" : {
+                "type" : "text",
+                "label" : "Channel Slider Ids",
+                "code" : "channelsliderids",
+                "value" : "139542623,139542621,139542622,139542624"
+            },
+            "homechannelid" : {
+                "type" : "text",
+                "label" : "Home Channel Id",
+                "code" : "homechannelid",
+                "value" : "139542623"
+            },
+            "favicon" : {
+                "type" : "text",
+                "label" : "favicon",
+                "code" : "favicon",
+                "value" : "glb"
+            },
+            "player_version": {
+                "for": "player",
+                "type": "text",
+                "label": "Player Version",
+                "code": "player_version",
+                "value": "3.1.3"
+            }
+        }
+    },
+    "menu":{
+        "main" : [
+            {
+                "name" : "Brushes and Pencils",
+                "weight" : -90,
+                "identifier" : "brushes-and-pencils",
+                "url" : "/c/brushes-and-pencils/139542624"
+            },
+            {
+                "name" : "Haircare",
+                "weight" : -100,
+                "identifier" : "Haircare",
+                "url" : "/c/haircare/139542622"
+            },
+            {
+                "name" : "Face and Skin",
+                "weight" : -70,
+                "identifier" : "face-and-skin",
+                "url" : "/c/face-and-skin/139542623"
+            },
+            {
+                "name" : "Makeup",
+                "weight" : -80,
+                "identifier" : "makeup",
+                "url" : "/c/makeup/139542621"
+            }
+        ],
+        "top" : [
+
+            {
+                "name" : "Subscribe",
+                "weight" : -110,
+                "identifier" : "subscribe",
+                "url" : "/#subscribe"
+            },
+            {
+                "name" : "Shop",
+                "weight" : -110,
+                "identifier" : "shop",
+                "url" : "/#shop"
+            }
+        ]
+    },
+    "galleryChannelIds": "139542623,139542621,139542622,139542624"
 }
