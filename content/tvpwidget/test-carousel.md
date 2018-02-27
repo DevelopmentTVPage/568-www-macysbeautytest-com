@@ -9,18 +9,13 @@
             "widget_title_html": "Most Popular",
             "widget_title_text_align": "center",
             "widget_title_color": "rgba(152, 242, 41, 1)"
+        },
+        ".widget-body": {
+            "body_font_family": "Open Sans"
         }
     },
     "layout": "bootstrap",
-    "channelTitle": "Brushes and Pencils",
+    "channelTitle": "Face and Skin",
     "channelType": "Standard",
-    "type": "carousel",
-    "advertising": {
-        "enabled": false,
-        "adServerUrl": null,
-        "adTimeout": 2000,
-        "maxAds": 100,
-        "adInterval": 0
-    },
-    "preload": false
+    "type": "carousel"
 }
