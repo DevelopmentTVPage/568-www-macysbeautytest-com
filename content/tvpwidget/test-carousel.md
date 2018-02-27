@@ -3,7 +3,7 @@
     "template": "carousel",
     "title": "Test Carousel",
     "projectId": "568",
-    "channelId": "139542624",
+    "channelId": "139542623",
     "css": {
         ".widget-title": {
             "widget_title_html": "Most Popular",
@@ -14,5 +14,13 @@
     "layout": "bootstrap",
     "channelTitle": "Brushes and Pencils",
     "channelType": "Standard",
-    "type": "carousel"
+    "type": "carousel",
+    "advertising": {
+        "enabled": false,
+        "adServerUrl": null,
+        "adTimeout": 2000,
+        "maxAds": 100,
+        "adInterval": 0
+    },
+    "preload": false
 }
