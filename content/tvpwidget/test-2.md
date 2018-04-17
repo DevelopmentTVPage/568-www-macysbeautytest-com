@@ -7,7 +7,7 @@
     "css": {
         ".widget-title": {
             "widget_title_html": "Most Popular",
-            "widget_title_text_align": "left",
+            "widget_title_text_align": "center",
             "widget_title_color": "rgba(0, 100, 163, 1)"
         },
         ".widget-body": {
