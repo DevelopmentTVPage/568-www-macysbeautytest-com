@@ -1,0 +1,62 @@
+{
+    "title": "Test Live Stream",
+    "description": "",
+    "referenceId": "TVP_LIVE_2725346",
+    "date_created": "1524681513",
+    "date_modified": "1524681513",
+    "tags": null,
+    "sourceId": "7",
+    "status": "approved",
+    "visibility": "1",
+    "VV_VI": null,
+    "engagement_score": null,
+    "conversion_score": null,
+    "CVV_VI": null,
+    "id": "143494494",
+    "loginId": "1759123",
+    "entityType": "1",
+    "titleTextEncoded": "Test-Live-Stream",
+    "category": null,
+    "VIDEO_LENGTH": "SHORT",
+    "duration": 0,
+    "settings": {
+        "destinations": [
+            {
+                "ip": "54.244.86.115",
+                "port": "1935",
+                "url": "rtmp:\/\/54.244.86.115\/staging-01315f2a6b9e094e48ca36885eadb919"
+            },
+            {
+                "ip": "52.40.131.164",
+                "port": "1935",
+                "url": "rtmp:\/\/52.40.131.164\/staging-01315f2a6b9e094e48ca36885eadb919"
+            }
+        ],
+        "provider": "TVP_LIVE",
+        "providerId": "2725346",
+        "environment": "staging",
+        "liveId": "01315f2a6b9e094e48ca36885eadb919",
+        "live_status": "LIVE_STARTED",
+        "live_quality": "1080",
+        "quality": null
+    },
+    "asset": {
+        "type": "mp4",
+        "type_stream": "live",
+        "sources": [],
+        "hlsUrl": "https:\/\/10380e91fda5e303.mediapackage.us-west-2.amazonaws.com\/out\/v1\/51ac32aa282146768f73edc57c83bde8\/index.m3u8",
+        "dashUrl": "https:\/\/10380e91fda5e303.mediapackage.us-west-2.amazonaws.com\/out\/v1\/7da8a64a37894f5197af4932ca0136f9\/index.mpd",
+        "live_status": "LIVE_STARTED",
+        "live_quality": "1080",
+        "status_url": "\/\/stage.tvpage.com\/api\/videos\/live\/status\/1759123\/143494494"
+    },
+    "transcripts": null,
+    "metrics_statistics": null,
+    "tvp_profiles": null,
+    "tvp_profiles_manual": null,
+    "tvp_profiles_maxscore": 0,
+    "tvp_profiles_nlp": null,
+    "tvp_profiles_account": null,
+    "tvp_profiles_manual_account": null,
+    "tvp_profiles_maxscore_account": null
+}
