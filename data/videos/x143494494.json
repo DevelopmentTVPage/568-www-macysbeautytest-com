@@ -1,10 +1,10 @@
 {
     "title": "Test Live Stream",
-    "description": "",
+    "description": "Mac cosmetics, eyeliner, makeup brushes",
     "referenceId": "TVP_LIVE_2725346",
     "date_created": "1524681513",
-    "date_modified": "1524681513",
-    "tags": null,
+    "date_modified": "1524681895",
+    "tags": "",
     "sourceId": "7",
     "status": "approved",
     "visibility": "1",
@@ -43,12 +43,15 @@
     "asset": {
         "type": "mp4",
         "type_stream": "live",
-        "sources": [],
         "hlsUrl": "https:\/\/10380e91fda5e303.mediapackage.us-west-2.amazonaws.com\/out\/v1\/51ac32aa282146768f73edc57c83bde8\/index.m3u8",
         "dashUrl": "https:\/\/10380e91fda5e303.mediapackage.us-west-2.amazonaws.com\/out\/v1\/7da8a64a37894f5197af4932ca0136f9\/index.mpd",
         "live_status": "LIVE_STARTED",
         "live_quality": "1080",
-        "status_url": "\/\/stage.tvpage.com\/api\/videos\/live\/status\/1759123\/143494494"
+        "status_url": "\/\/stage.tvpage.com\/api\/videos\/live\/status\/1759123\/143494494",
+        "thumbnailUrl": "\/\/sitecdn.tvpage.com\/dev\/users\/1759123\/canvas\/1920\/1080\/461292877-1524681872.jpg",
+        "uploadAsset": false,
+        "quality": "",
+        "sources": []
     },
     "transcripts": null,
     "metrics_statistics": null,
